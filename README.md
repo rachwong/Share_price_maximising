@@ -9,3 +9,7 @@ The following are assumptions I have made :
 * If there is no maximum profit the algorithm will return 0.
 * I am assuming the currency is NZD and that a share price will not be over 6 digits
 * I am assuming the numbers are round numbers given I am receiving an integer array as opposed to a double.
+
+### To run
+App.Java located at: SharePriceTools/src/main/java/App.java
+can be executed to print the profit results of any given array
