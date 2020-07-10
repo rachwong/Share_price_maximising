@@ -2,7 +2,7 @@
 This is a project to find the best times in the day to buy and sell shares.
 
 ##
-This code is written in Main.Java.
+This code is written in Java.
 
 The following are assumptions I have made :
 * The share price cannot drop below 1 at any hour.

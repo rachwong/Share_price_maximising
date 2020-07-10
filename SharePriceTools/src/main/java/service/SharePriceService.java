@@ -1,8 +1,6 @@
 package service;
 
 public class SharePriceService {
-
-
     public int getMaxProfit(int[] stockPrices) {
         int maxProfitDifference = stockPrices[1] - stockPrices[0];
         int minStockPrice = stockPrices[0];

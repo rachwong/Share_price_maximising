@@ -8,9 +8,9 @@ public class App {
         int[] sharePrice3 = {0, 0, 0, 0};
         int[] sharePrice4 = {9, 8, 7, 6};
 
-        System.out.println(sharePriceService.getMaxProfit(sharePrice));
-        System.out.println(sharePriceService.getMaxProfit(sharePrice2));
-        System.out.println(sharePriceService.getMaxProfit(sharePrice3));
-        System.out.println(sharePriceService.getMaxProfit(sharePrice4));
+        System.out.println("The max profit is: " + sharePriceService.getMaxProfit(sharePrice));
+        System.out.println("The max profit is: " + sharePriceService.getMaxProfit(sharePrice2));
+        System.out.println("The max profit is: " + sharePriceService.getMaxProfit(sharePrice3));
+        System.out.println("The max profit is: " + sharePriceService.getMaxProfit(sharePrice4));
     }
 }

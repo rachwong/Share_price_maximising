@@ -70,3 +70,4 @@ public class SharePriceServiceTest {
         assertThat(maxProfit, is(expected));
     }
 }
+
