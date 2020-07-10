@@ -48,7 +48,7 @@ public class SharePriceServiceTest {
 
     @Test
     public void can_test_for_example_case_where_positive_profit() {
-        final int[] sharePrice = {100,200,300,400,500,600,700,800,1000};
+        final int[] sharePrice = {100, 200, 300, 400, 500, 600, 700, 800, 1000};
         int expected = 900;
         final int maxProfit = sharePriceService.getMaxProfit(sharePrice);
         assertThat(maxProfit, is(expected));
